@@ -1,0 +1,22 @@
+{
+  "item" : {
+    "nome" : "Notebook Gamer",
+    "descricao" : "Dell I7",
+    "valorInicial" : 2500.0
+  },
+  "maiorLance" : {
+    "autor" : "maria",
+    "valor" : 3000.0,
+    "dataHora" : [ 2026, 4, 23, 23, 45, 42, 740269400 ]
+  },
+  "lances" : [ {
+    "autor" : "joao",
+    "valor" : 2800.0,
+    "dataHora" : [ 2026, 4, 23, 23, 45, 10, 162412800 ]
+  }, {
+    "autor" : "maria",
+    "valor" : 3000.0,
+    "dataHora" : [ 2026, 4, 23, 23, 45, 42, 740269400 ]
+  } ],
+  "encerrado" : true
+}
