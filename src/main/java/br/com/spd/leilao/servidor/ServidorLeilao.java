@@ -1,4 +1,8 @@
-package br.com.spd.leilao;
+package br.com.spd.leilao.servidor;
+
+import br.com.spd.leilao.modelos.EstadoLeilao;
+import br.com.spd.leilao.util.JsonUtil;
+import br.com.spd.leilao.modelos.Usuario;
 
 import java.io.IOException;
 import java.net.DatagramPacket;

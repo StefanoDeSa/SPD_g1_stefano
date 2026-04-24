@@ -1,4 +1,4 @@
-package br.com.spd.leilao;
+package br.com.spd.leilao.cliente;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

@@ -1,4 +1,4 @@
-package br.com.spd.leilao;
+package br.com.spd.leilao.modelos;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

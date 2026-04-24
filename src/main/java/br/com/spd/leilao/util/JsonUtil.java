@@ -1,5 +1,7 @@
-package br.com.spd.leilao;
+package br.com.spd.leilao.util;
 
+import br.com.spd.leilao.modelos.EstadoLeilao;
+import br.com.spd.leilao.modelos.Usuario;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -11,7 +13,9 @@ import java.util.List;
 import java.util.Map;
 
 public class JsonUtil {
-    private static final ObjectMapper mapper = new ObjectMapper().findAndRegisterModules()
+    private static final ObjectMapper mapper = new ObjectMapper()
+            .findAndRegisterModules()
+            .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)
             .enable(SerializationFeature.INDENT_OUTPUT);
 
     public static List<Usuario> carregarUsuarios(String caminho) throws IOException {

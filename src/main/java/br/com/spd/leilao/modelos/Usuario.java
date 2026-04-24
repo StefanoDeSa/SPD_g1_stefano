@@ -1,4 +1,4 @@
-package br.com.spd.leilao;
+package br.com.spd.leilao.modelos;
 
 public class Usuario {
     private String login;

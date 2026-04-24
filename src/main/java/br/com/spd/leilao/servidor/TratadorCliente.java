@@ -1,4 +1,6 @@
-package br.com.spd.leilao;
+package br.com.spd.leilao.servidor;
+
+import br.com.spd.leilao.modelos.Usuario;
 
 import java.io.BufferedReader;
 import java.io.IOException;

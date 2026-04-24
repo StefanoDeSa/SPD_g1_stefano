@@ -1,4 +1,4 @@
-package br.com.spd.leilao;
+package br.com.spd.leilao.cliente;
 
 import java.io.BufferedReader;
 import java.io.IOException;
